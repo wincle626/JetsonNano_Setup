@@ -27,6 +27,7 @@ $ dmesg | grep --color 'tty'
 …
 
 …
+
 [xxxxxx.xxxxxx] cdc_acm 1-5:1.2: ttyACM0: USB ACM device
 
 The new serial device is for your Jetson developer kit.
