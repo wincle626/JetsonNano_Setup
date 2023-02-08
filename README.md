@@ -1,2 +1,2 @@
-# This is the repository of enviroment setup for Jetson Nano
+# This is the repository of different setups for Jetson Nano
 
