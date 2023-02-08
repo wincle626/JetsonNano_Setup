@@ -36,11 +36,7 @@ clinfo
 
 #### This is what it shows on my Jetson Nano: 
 
-
-
-<img align="right" width="723" height="220" src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/clinfo.png">
-
-
+<img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/clinfo.png">
 
 Number of platforms                               1
 
