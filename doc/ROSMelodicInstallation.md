@@ -43,3 +43,7 @@ Setup Jetson Nano to accept software from packages.ros.org.
 make sure "/home/youruser/catkin_ws/src" is added to ROS_PACKAGE_PATH and can be checked by 
 
   `echo $ROS_PACKAGE_PATH`
+  
+### c. Toy ROS project
+
+#### i. CSI camera ROS device
