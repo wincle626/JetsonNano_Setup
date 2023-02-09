@@ -38,8 +38,8 @@ Setup Jetson Nano to accept software from packages.ros.org.
 
 ### b. Setup the devleopment enviroment
 
-  source devel/setup.bash
+  `source devel/setup.bash`
 
 make sure "/home/youruser/catkin_ws/src" is added to ROS_PACKAGE_PATH and can be checked by 
 
-  echo $ROS_PACKAGE_PATH
+  `echo $ROS_PACKAGE_PATH`
