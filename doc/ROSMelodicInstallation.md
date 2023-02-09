@@ -34,6 +34,4 @@ sudo rosdep init && rosdep update
 
 mkdir -p ~/catkin_ws/src && cd ~/catkin_ws/ && catkin_make
 
-then follow the instruction to run command: "make -j4 -l4" in "/home/jetsonnano/catkin_ws/build" folder
-
 (if Python 3 is require for deveropment, then use "catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3" to create the workspace)
