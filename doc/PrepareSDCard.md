@@ -18,11 +18,11 @@ Now the SD card is ready to go. Easy and simple !
 
 Before connecting to your Jetson developer kit for initial setup, check to see what Serial devices are already shown on your Linux computer.
 
-$ dmesg | grep --color 'tty'
+`$ dmesg | grep --color 'tty'`
 
 Connect your Linux computer to the developer kit’s Micro-USB port and run the same command to find what’s newly added.
 
-$ dmesg | grep --color 'tty'
+`$ dmesg | grep --color 'tty'`
 
 …
 
@@ -32,7 +32,7 @@ $ dmesg | grep --color 'tty'
 
 The new serial device is for your Jetson developer kit.
 
-$ ls -l /dev/ttyACM0
+`$ ls -l /dev/ttyACM0`
 
 crw-rw---- 1 root dialout 166, 0 Oct  2 02:45 /dev/ttyACM0
 
@@ -40,11 +40,11 @@ crw-rw---- 1 root dialout 166, 0 Oct  2 02:45 /dev/ttyACM0
 
 Install the Screen program on your Linux computer if it is now already available. For example, use this command to install Screen if you are running Ubuntu.
 
-$ sudo apt-get install -y screen
+`$ sudo apt-get install -y screen`
 
 Use the device name discovered previously as a command line option for the `screen` command.
 
-$ sudo screen /dev/ttyACM0 115200
+`$ sudo screen /dev/ttyACM0 115200`
 
 #### c. Terminate screen to disconnect Jetson Nano
 
