@@ -38,7 +38,7 @@ Nvidia does not support OpenCL on Jetson Nano natively. So, the work-around is t
 
 <img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/clinfo.png">
 
-Number of platforms                               1
+`Number of platforms                               1
 
   Platform Name                                   Portable Computing Language
   
@@ -436,7 +436,7 @@ ICD loader properties
   
   ICD loader Version                              2.2.11
   
-  ICD loader Profile                              OpenCL 2.1
+  ICD loader Profile                              OpenCL 2.1`
   
 
 
