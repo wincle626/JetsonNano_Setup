@@ -6,7 +6,7 @@ Nvidia does not support OpenCL on Jetson Nano natively. So, the work-around is t
 
 ### 1. The PoCL is based on LLVM-Clang compiler framework, so the first step is to install LLVM+Clang. This can be done directly through Ubuntu package management system. 
 
-`export LLVM_VERSION=10`
+`export LLVM_VERSION=10`rce devel/setup.bash
 
 `sudo apt install -y build-essential ocl-icd-libopencl1 cmake git pkg-config libclang-${LLVM_VERSION}-dev clang-${LLVM_VERSION} llvm-${LLVM_VERSION} make ninja-build ocl-icd-libopencl1 ocl-icd-dev ocl-icd-opencl-dev libhwloc-dev zlib1g zlib1g-dev clinfo dialog apt-utils libxml2-dev libclang-cpp${LLVM_VERSION}-dev libclang-cpp${LLVM_VERSION} llvm-${LLVM_VERSION}-dev libncurses5`
 
@@ -38,7 +38,7 @@ Nvidia does not support OpenCL on Jetson Nano natively. So, the work-around is t
 
 <img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/clinfo.png">
 
-`Number of platforms                               1
+Number of platforms                               1
 
   Platform Name                                   Portable Computing Language
   
@@ -148,7 +148,7 @@ Number of devices                                 2
   Double-precision Floating-point support         (cl_khr_fp64)
   
     Denormals                                     Yes
-    
+    rce devel/setup.bash
     Infinity and NANs                             Yes
     
     Round to nearest                              Yes
@@ -436,7 +436,7 @@ ICD loader properties
   
   ICD loader Version                              2.2.11
   
-  ICD loader Profile                              OpenCL 2.1`
+  ICD loader Profile                              OpenCL 2.1
   
 
 
