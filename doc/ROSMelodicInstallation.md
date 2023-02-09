@@ -29,3 +29,9 @@ sudo apt install python-rosdep python-rosinstall python-rosinstall-generator pyt
 sudo rosdep init && rosdep update
 
 ## 6. Now it is time to play ROS on Jetson Nano :)
+
+### a. Create a ROS Workspace
+
+mkdir -p ~/catkin_ws/src && cd ~/catkin_ws/ && catkin_make
+
+(if Python 3 is require for deveropment, then use "catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3" to create the workspace)
