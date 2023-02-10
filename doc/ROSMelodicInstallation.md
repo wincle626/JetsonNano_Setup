@@ -181,6 +181,24 @@ turtle simulation node:
 
 <img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/turtlesim.png" width="400" height="400">
 
+then the `turlesim` node is added to the node list: `rosnode list`
 
+/rosout
+
+/turtlesim
+
+you can also use your own name for the node by specifying the node name by
+
+  `rosrun turtlesim turtlesim_node __name:=my_turtle`
+
+and the new name will be added to the node list: `rosnode list`
+
+/my_turtle
+
+/rosout
+
+at run-time you can check the response of node by `rosnode ping my_turtle`
+
+<img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/rosnodeping.png" width="400" height="200">
 
 
