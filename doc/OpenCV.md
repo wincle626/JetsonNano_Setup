@@ -18,11 +18,13 @@ using `unzip` command to decompress the zip file to home directory.
 
 `sudo apt install -y build-essential cmake libavcodec-dev libavformat-dev libavutil-dev libeigen3-dev libglew-dev libgtk2.0-dev libgtk-3-dev libjpeg-dev libpng-dev libpostproc-dev libswscale-dev libtbb-dev libtiff5-dev libv4l-dev libxvidcore-dev libx264-dev qt5-default zlib1g-dev pkg-config`
 
-`sudo apt-get install -y python-dev  python-numpy  python-py  python-pytest`
+`sudo apt install -y python-dev  python-numpy  python-py  python-pytest`
 
-`sudo apt-get install -y python3-dev python3-numpy python3-py python3-pytest`
+`sudo apt install -y python3-dev python3-numpy python3-py python3-pytest`
 
-`sudo apt-get install -y libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev `
+`sudo apt install -y libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev`
+
+`sudo apt install openjdk-11-jdk openjdk-11-jre ant`
 
 ## 3. Build OpenCV using CMake
 
