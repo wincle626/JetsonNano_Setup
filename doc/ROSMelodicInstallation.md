@@ -147,3 +147,19 @@ specifically, one could set the build and install directory instead of the defau
   
   `catkin_make install --source my_src`  (optionally)
 
+#### v. [Run ROS node](http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
+
+ros node basically is the executable for a ros package.
+
+using the ros tutorial as example:
+
+  `sudo apt-get install ros-melodic-ros-tutorials`
+  
+firstly, to run ros node, we need to run the roscore first
+
+  `roscore`
+  
+<p align="center">
+<img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/roscore.png">
+</p>
+
