@@ -32,4 +32,12 @@ using `unzip` command to decompress the zip file to home directory.
 
 It might be hard to compile the how package on Jetson Nano 2GB due the limited memory size. You can use cross-compile on an x86_64 machine instead. 
 
+## 4. Setup OpenCV enviroment
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/opencv-4.7.0/install/lib
+
+export C_INCLUDE_PATH=$LD_LIBRARY_PATH:~/opencv-4.7.0/install/include
+
+export CXX_INCLUDE_PATH=$LD_LIBRARY_PATH:~/opencv-4.7.0/install/include
+
 
