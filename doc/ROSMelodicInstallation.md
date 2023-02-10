@@ -58,7 +58,7 @@ use the catkin_create_pkg script to create a new package called 'beginner_tutori
 
 (usage of catkin_create_pkg script with a list of dependencies: catkin_create_pkg <package_name> [depend1] [depend2] [depend3] ... )
 
-#### ii. Building a catkin workspace and sourcing the setup file
+#### ii. Building a catkin workspace and sourcing the setup file 
 
   `cd ~/catkin_ws && $ catkin_make`
 
@@ -91,9 +91,9 @@ rospack can recursively determine all nested dependencies:
  
   `rospack depends beginner_tutorials`
   
-#### iii. Customizing the package
+#### iii. [Customizing the package.xml](http://wiki.ros.org/catkin/package.xml)
 
-the meta information of package in [`package.xml`](http://wiki.ros.org/catkin/package.xml) can be changed to customize the contact, author, licence, dependencies, and version, etc.
+the meta information of package in `package.xml` can be changed to customize the contact, author, licence, dependencies, and version, etc.
 
 e.g. :
 
@@ -131,6 +131,6 @@ e.g. :
   
   `</package>`22 
   
-
+#### iv. [Building packages](http://wiki.ros.org/ROS/Tutorials/BuildingPackages)
 
 
