@@ -6,6 +6,8 @@
 
 ## 1. Prepare the bootable SD card and start Jetson Nano: ([Stargate](https://github.com/wincle626/JetsonNano_Setup/blob/main/doc/PrepareSDCard.md))
 
-## 2. Deploy OpenCL on Jetson Nano: ([Stargate](https://github.com/wincle626/JetsonNano_Setup/blob/main/doc/OpenCL.md))
+## 2. Deploy OpenCL on Jetson Nano: ([Stargate](https://github.com/wincle626/JetsonNano_Setup/blob/main/doc/OpenCLInstallation.md))
 
-## 3. Deploy ROS on Jetson Nano: ([Stargate](https://github.com/wincle626/JetsonNano_Setup/blob/main/doc/ROSMelodicInstallation.md))
+## 3. Deploy OpenCV on Jetson Nano: ([Stargate](https://github.com/wincle626/JetsonNano_Setup/blob/main/doc/OpenCVInstallation.md))
+
+## 4. Deploy ROS on Jetson Nano: ([Stargate](https://github.com/wincle626/JetsonNano_Setup/blob/main/doc/ROSMelodicInstallation.md))
