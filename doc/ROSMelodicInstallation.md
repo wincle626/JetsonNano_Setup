@@ -171,7 +171,7 @@ the node information can be displayed:
 
   'rosnode info /rosout'
   
-<img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/rosnodeinfo.png" width="400" height="320">
+<img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/rosnodeinfo.png" width="400" height="240">
 
 
 
