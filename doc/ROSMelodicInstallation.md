@@ -158,8 +158,6 @@ using the ros tutorial as example:
 firstly, to run ros node, we need to run the roscore first
 
   `roscore`
-  
-<p align="center">
-<img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/roscore.png">
-</p>
+
+<img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/roscore.png" width="400" height="320">
 
