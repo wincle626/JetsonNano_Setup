@@ -201,4 +201,10 @@ at run-time you can check the response of node by `rosnode ping my_turtle`
 
 <img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/rosnodeping.png" width="400" height="100">
 
+#### vi. Summary
 
+`roscore` = ros+core : master (provides name service for ROS) + rosout (stdout/stderr) + parameter server (parameter server will be introduced later)
+
+`rosnode` = ros+node : ROS tool to get information about a node.
+
+`rosrun` = ros+run : runs a node from a given package.
