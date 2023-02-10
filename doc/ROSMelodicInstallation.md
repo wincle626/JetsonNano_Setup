@@ -57,3 +57,68 @@ use the catkin_create_pkg script to create a new package called 'beginner_tutori
   `catkin_create_pkg beginner_tutorials std_msgs rospy roscpp`
 
 (usage of catkin_create_pkg script with a list of dependencies: catkin_create_pkg <package_name> [depend1] [depend2] [depend3] ... )
+
+#### ii. Building a catkin workspace and sourcing the setup file
+
+  `cd ~/catkin_ws && $ catkin_make`
+
+  `source ~/catkin_ws/devel/setup.bash` (you can also put it into .bashrc)
+
+#### iii. Check package dependencies
+
+first-order dependencies can now be reviewed with the rospack tool:
+
+  `rospack depends1 beginner_tutorials `
+
+these dependencies for a package are stored in the package.xml file:
+
+  `roscd beginner_tutorials && cat package.xml`
+  
+  <package format="2">
+    ...
+      <buildtool_depend>catkin</buildtool_depend>
+      <build_depend>roscpp</build_depend>
+      <build_depend>rospy</build_depend>
+      <build_depend>std_msgs</build_depend>
+    ...
+  </package>
+
+ dependency will also have its own dependencies, which can be checked as well:
+ 
+  `rospack depends1 rospy`
+  
+rospack can recursively determine all nested dependencies:
+ 
+  `rospack depends beginner_tutorials`
+  
+#### iii. Customizing the package
+
+the meta information of package in [`package.xml`](http://wiki.ros.org/catkin/package.xml) can be changed to customize the contact, author, licence, dependencies, and version, etc.
+
+e.g. 
+   1 <?xml version="1.0"?>
+   2 <package format="2">
+   3   <name>beginner_tutorials</name>
+   4   <version>0.1.0</version>
+   5   <description>The beginner_tutorials package</description>
+   6 
+   7   <maintainer email="you@yourdomain.tld">Your Name</maintainer>
+   8   <license>BSD</license>
+   9   <url type="website">http://wiki.ros.org/beginner_tutorials</url>
+  10   <author email="you@yourdomain.tld">Jane Doe</author>
+  11 
+  12   <buildtool_depend>catkin</buildtool_depend>
+  13 
+  14   <build_depend>roscpp</build_depend>
+  15   <build_depend>rospy</build_depend>
+  16   <build_depend>std_msgs</build_depend>
+  17 
+  18   <exec_depend>roscpp</exec_depend>
+  19   <exec_depend>rospy</exec_depend>
+  20   <exec_depend>std_msgs</exec_depend>
+  21 
+  22 </package>
+  
+
+
+
