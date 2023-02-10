@@ -95,7 +95,8 @@ rospack can recursively determine all nested dependencies:
 
 the meta information of package in [`package.xml`](http://wiki.ros.org/catkin/package.xml) can be changed to customize the contact, author, licence, dependencies, and version, etc.
 
-e.g. 
+e.g. :
+
    `<?xml version="1.0"?>`
    
    `<package format="2">`
