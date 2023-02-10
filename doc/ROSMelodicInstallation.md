@@ -161,3 +161,18 @@ firstly, to run ros node, we need to run the roscore first
 
 <img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/roscore.png" width="400" height="320">
 
+check avaiable ros node on the device
+
+  `rosnode list`
+  
+initially there is a node: `$ /rosout`
+
+the node information can be displayed:
+
+  'rosnode info /rosout'
+  
+<img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/rosnodeinfo.png" width="400" height="320">
+
+
+
+  
