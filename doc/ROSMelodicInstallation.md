@@ -133,4 +133,17 @@ e.g. :
   
 #### iv. [Building packages](http://wiki.ros.org/ROS/Tutorials/BuildingPackages)
 
+the general building package is through `catkin_make` command, which support CMake flags
+
+  `catkin_make [make_targets] [-DCMAKE_VARIABLES=...]`
+  
+then install the package using
+
+  `catkin_make install ` (optionally)`
+  
+specifically, one could set the build and install directory instead of the default /catkin_ws/src:
+
+  `catkin_make --source my_src`
+  
+  `catkin_make install --source my_src`  (optionally)
 
