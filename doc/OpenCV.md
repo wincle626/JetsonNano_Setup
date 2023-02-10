@@ -8,6 +8,8 @@ Following the procedures by [JetsonHack's repository](https://github.com/JetsonH
   
 ## 2. Install prerequisite packages
 
+sudo apt-add-repository universe
+sudo apt-get update
 sudo apt-get install -y \
     build-essential \
     cmake \
