@@ -26,4 +26,10 @@ using `unzip` command to decompress the zip file to home directory.
 
 ## 3. Build OpenCV using CMake
 
-cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=~/opencv-4.7.0/install -DWITH_CUDA=ON -DCUDA_ARCH_BIN=5.3 -DCUDA_ARCH_PTX="" -DENABLE_FAST_MATH=ON -DCUDA_FAST_MATH=ON -DWITH_CUBLAS=ON -DWITH_LIBV4L=ON -DWITH_V4L=ON -DWITH_GSTREAMER=ON -DWITH_GSTREAMER_0_10=OFF -DWITH_QT=ON -DWITH_OPENGL=ON -DBUILD_opencv_python2=ON -DBUILD_opencv_python3=ON -DBUILD_TESTS=OFF -DBUILD_PERF_TESTS=OFF -DOPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-4.7.0/modules -DCPACK_BINARY_DEB=ON ../
+`cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=~/opencv-4.7.0/install -DWITH_CUDA=ON -DCUDA_ARCH_BIN=5.3 -DCUDA_ARCH_PTX="" -DENABLE_FAST_MATH=ON -DCUDA_FAST_MATH=ON -DWITH_CUBLAS=ON -DWITH_LIBV4L=ON -DWITH_V4L=ON -DWITH_GSTREAMER=ON -DWITH_GSTREAMER_0_10=OFF -DWITH_QT=ON -DWITH_OPENGL=ON -DBUILD_opencv_python2=ON -DBUILD_opencv_python3=ON -DBUILD_TESTS=OFF -DBUILD_PERF_TESTS=OFF -DOPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-4.7.0/modules -DCPACK_BINARY_DEB=ON ../`
+
+`make -j2 && make install`
+
+It might be hard to compile the how package on Jetson Nano 2GB due the limited memory size. You can use cross-compile on an x86_64 machine instead. 
+
+
