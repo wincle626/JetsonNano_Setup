@@ -46,4 +46,14 @@ make sure "/home/youruser/catkin_ws/src" is added to ROS_PACKAGE_PATH and can be
   
 ### c. Toy ROS project
 
-#### i. CSI camera ROS device
+#### i. Creating a catkin Package using ROS example
+
+go to the directory of the catkin workspace:
+
+  `cd ~/catkin_ws/src`
+
+use the catkin_create_pkg script to create a new package called 'beginner_tutorials' which depends on std_msgs, roscpp, and rospy:
+
+  `catkin_create_pkg beginner_tutorials std_msgs rospy roscpp`
+
+(usage of catkin_create_pkg script with a list of dependencies: catkin_create_pkg <package_name> [depend1] [depend2] [depend3] ... )
