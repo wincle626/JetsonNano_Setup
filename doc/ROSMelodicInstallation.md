@@ -199,6 +199,6 @@ and the new name will be added to the node list: `rosnode list`
 
 at run-time you can check the response of node by `rosnode ping my_turtle`
 
-<img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/rosnodeping.png" width="400" height="200">
+<img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/rosnodeping.png" width="400" height="100">
 
 
