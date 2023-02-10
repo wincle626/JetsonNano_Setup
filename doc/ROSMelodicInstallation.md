@@ -173,6 +173,14 @@ the node information can be displayed:
   
 <img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/rosnodeinfo.png" width="400" height="240">
 
+the ros node can be executed using `rosrun` command - Usage: rosrun [package_name] [node_name]
+
+turtle simulation node:
+
+  `rosrun turtlesim turtlesim_node`
+
+<img src="https://github.com/wincle626/JetsonNano_Setup/blob/main/pics/turtlesim.png" width="400" height="400">
 
 
-  
+
+
