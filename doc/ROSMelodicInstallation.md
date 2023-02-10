@@ -208,3 +208,5 @@ at run-time you can check the response of node by `rosnode ping my_turtle`
 `rosnode` = ros+node : ROS tool to get information about a node.
 
 `rosrun` = ros+run : runs a node from a given package.
+
+## 7. More detailed information @ [ROS.org](http://wiki.ros.org/ROS/Tutorials)
