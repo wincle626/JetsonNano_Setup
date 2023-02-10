@@ -96,49 +96,39 @@ rospack can recursively determine all nested dependencies:
 the meta information of package in [`package.xml`](http://wiki.ros.org/catkin/package.xml) can be changed to customize the contact, author, licence, dependencies, and version, etc.
 
 e.g. 
-   1 <?xml version="1.0"?>
+   `<?xml version="1.0"?>`
    
-   2 <package format="2">
+   `<package format="2">`
   
-   3   <name>beginner_tutorials</name>
+   `<name>beginner_tutorials</name>`
   
-   4   <version>0.1.0</version>
+   `<version>0.1.0</version>`
   
-   5   <description>The beginner_tutorials package</description>
+   `<description>The beginner_tutorials package</description>`
+   
+   `<maintainer email="you@yourdomain.tld">Your Name</maintainer>`
   
-   6 
+   `<license>BSD</license>`
   
-   7   <maintainer email="you@yourdomain.tld">Your Name</maintainer>
+   `<url type="website">http://wiki.ros.org/beginner_tutorials</url>`
   
-   8   <license>BSD</license>
+  `<author email="you@yourdomain.tld">Jane Doe</author>`
   
-   9   <url type="website">http://wiki.ros.org/beginner_tutorials</url>
+  `<buildtool_depend>catkin</buildtool_depend>`
   
-  10   <author email="you@yourdomain.tld">Jane Doe</author>
+  `<build_depend>roscpp</build_depend>`
   
-  11 
+  `<build_depend>rospy</build_depend>`
   
-  12   <buildtool_depend>catkin</buildtool_depend>
+  ` <build_depend>std_msgs</build_depend>`
   
-  13 
+  `<exec_depend>roscpp</exec_depend>`
   
-  14   <build_depend>roscpp</build_depend>
+  `<exec_depend>rospy</exec_depend>`
   
-  15   <build_depend>rospy</build_depend>
+  `<exec_depend>std_msgs</exec_depend>`
   
-  16   <build_depend>std_msgs</build_depend>
-  
-  17 
-  
-  18   <exec_depend>roscpp</exec_depend>
-  
-  19   <exec_depend>rospy</exec_depend>
-  
-  20   <exec_depend>std_msgs</exec_depend>
-  
-  21 
-  
-  22 </package>
+  `</package>`22 
   
 
 
